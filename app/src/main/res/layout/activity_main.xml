@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/txt_frag_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:text="Hello"
+        />
+
+    <Button
+        android:id="@+id/btn_frag_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="20dp"
+        android:height="20dp"
+        android:layout_centerVertical="true"
+        android:text="Send" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+</RelativeLayout>
