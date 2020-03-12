@@ -1,2 +1,0 @@
-# AndroidFragmentDemo
-Android project
